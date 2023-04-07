@@ -60,10 +60,6 @@ public class SlotMachine : MonoBehaviour
 
 
     }
-    void Start()
-    {
-        
-    }
     public void EndRoll()
     {
         List<int> pos = new List<int>();
@@ -133,7 +129,5 @@ public class SlotMachine : MonoBehaviour
                 obj.anchoredPosition = new Vector2(obj.anchoredPosition.x, finalPos[(Random.Range(0, finalPos.Count))]);
             }
         }
-        
-        
     }
 }
