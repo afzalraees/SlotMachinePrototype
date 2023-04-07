@@ -131,12 +131,6 @@ public class SlotMachine : MonoBehaviour
             foreach (var obj in slot)
             {
                 obj.anchoredPosition = new Vector2(obj.anchoredPosition.x, finalPos[(Random.Range(0, finalPos.Count))]);
-                /*obj.anchoredPosition += new Vector2(0, 0.5f);
-                if (obj.anchoredPosition.y > 880)
-                {
-                    obj.anchoredPosition = new Vector2(obj.anchoredPosition.x, 0);
-                }*/
-                /*StartCoroutine(EndRoll());*/
             }
         }
         
